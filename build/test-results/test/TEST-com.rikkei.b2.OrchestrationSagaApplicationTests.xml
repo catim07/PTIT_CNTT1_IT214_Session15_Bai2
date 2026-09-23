@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rikkei.b2.OrchestrationSagaApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-23T13:22:54.958Z" hostname="LAPTOP-CFE5QQ0I" time="1.85">
+  <properties/>
+  <testcase name="testFailedStockSagaWithCompensation()" classname="com.rikkei.b2.OrchestrationSagaApplicationTests" time="0.534"/>
+  <testcase name="testSuccessfulSaga()" classname="com.rikkei.b2.OrchestrationSagaApplicationTests" time="0.003"/>
+  <system-out><![CDATA[20:22:55.073 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.rikkei.b2.OrchestrationSagaApplicationTests]: OrchestrationSagaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:22:55.151 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.rikkei.b2.OrchestrationSagaApplication for test class com.rikkei.b2.OrchestrationSagaApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2026-09-23T20:22:55.431+07:00  INFO 132 --- [    Test worker] c.r.b.OrchestrationSagaApplicationTests  : Starting OrchestrationSagaApplicationTests using Java 23.0.2 with PID 132 (started by LE THANH CUONG in D:\RIKKEI\RIKKEI_MicroServiceSystem\ss15\b2)
+2026-09-23T20:22:55.433+07:00  INFO 132 --- [    Test worker] c.r.b.OrchestrationSagaApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-09-23T20:22:56.254+07:00  INFO 132 --- [    Test worker] c.r.b.OrchestrationSagaApplicationTests  : Started OrchestrationSagaApplicationTests in 0.981 seconds (process running for 1.862)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\LE THANH CUONG\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
